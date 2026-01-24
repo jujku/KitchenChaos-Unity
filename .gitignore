@@ -1,0 +1,10 @@
+# 忽略整个目录
+/Library/
+/Temp/
+/Logs/
+/UserSettings/
+/.vscode/
+
+# 忽略特定扩展名的文件（不管在哪个文件夹）
+*.csproj
+*.sln
