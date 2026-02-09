@@ -52,4 +52,15 @@ public class KitchenObjectHolder : MonoBehaviour
     {
         SetKitchenObject(null);
     }
+    public void DestroyKithenObject()
+    {
+        Destroy(kitchenObject.gameObject);
+        ClearKitchenObject();
+    }
+    public void CreateKitchenObject(GameObject kitchenObjectPrefab)
+    {
+        KitchenObject kitchenObject = GameObject.Instantiate(kitchenObjectPrefab,GetHoldPoint()).GetComponent<KitchenObject>();
+        SetKitchenObject(kitchenObject);
+        // TransforKitchenObject(this,Player.Instance);
+    }
 }

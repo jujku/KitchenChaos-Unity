@@ -41,7 +41,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6241572679959225096, guid: cd8d578ca63c5b14f99203a26901adf7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.17
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6241572679959225096, guid: cd8d578ca63c5b14f99203a26901adf7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -79,12 +79,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6645784462942163217, guid: cd8d578ca63c5b14f99203a26901adf7, type: 3}
+      propertyPath: holdPoint
+      value: 
+      objectReference: {fileID: 4166225066812824216}
+    - target: {fileID: 6645784462942163217, guid: cd8d578ca63c5b14f99203a26901adf7, type: 3}
+      propertyPath: seceltedCounter
+      value: 
+      objectReference: {fileID: 6956760813974813528}
     - target: {fileID: 6938015553649333555, guid: cd8d578ca63c5b14f99203a26901adf7, type: 3}
       propertyPath: m_Name
       value: ContainerCounter Variant
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedComponents:
+    - {fileID: 6645784462942163217, guid: cd8d578ca63c5b14f99203a26901adf7, type: 3}
+    m_RemovedGameObjects:
+    - {fileID: 3942536997520127412, guid: cd8d578ca63c5b14f99203a26901adf7, type: 3}
+    - {fileID: 6896523385777391111, guid: cd8d578ca63c5b14f99203a26901adf7, type: 3}
+    - {fileID: 4955666370893074306, guid: cd8d578ca63c5b14f99203a26901adf7, type: 3}
+    - {fileID: 520884447752932390, guid: cd8d578ca63c5b14f99203a26901adf7, type: 3}
+    - {fileID: 3350277446475216451, guid: cd8d578ca63c5b14f99203a26901adf7, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 6241572679959225096, guid: cd8d578ca63c5b14f99203a26901adf7, type: 3}
       insertIndex: -1

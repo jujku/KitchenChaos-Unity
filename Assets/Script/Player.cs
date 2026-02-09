@@ -25,6 +25,7 @@ public class Player : KitchenObjectHolder
     void Start()
     {
         gameInput.OnInteractAction += GameInput_OnInteractAction;
+        gameInput.OnOpreateAction += GameInput_OnOpreateAction;
     }
 
     void Update()
@@ -36,6 +37,14 @@ public class Player : KitchenObjectHolder
         // HandleInteract();
         Debug.Log(gameObject + "GameInput_OnInteractAction 已经执行");
         selectedCounter?.Interact(this);
+    }
+    private void GameInput_OnOpreateAction(object sender, EventArgs e)
+    {
+        // HandleInteract();
+        Debug.Log(gameObject + "GameInput_OnOpreateAction 已经执行");
+        Debug.Log(gameObject + "选择的是" + selectedCounter);
+        
+        selectedCounter?.Opreate(this);
     }
 
 

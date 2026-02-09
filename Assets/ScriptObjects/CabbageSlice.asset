@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f86f61fc8c0d1d458a5a395d4d40e09, type: 3}
   m_Name: CabbageSlice
   m_EditorClassIdentifier: Assembly-CSharp::kitchenObjectSO
-  prefab: {fileID: 0}
+  prefab: {fileID: 6419631341083172427, guid: d411301dcd6e06948b216041867d043d, type: 3}
   sprite: {fileID: 21300000, guid: bee24f07c57157e45a946eed3bfe8b84, type: 3}
   ObjectName: "\u751F\u83DC\u7247"

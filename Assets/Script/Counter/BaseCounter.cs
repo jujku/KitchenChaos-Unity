@@ -7,6 +7,10 @@ public class BaseCounter : KitchenObjectHolder
     {
      
     }
+    public virtual void Opreate(Player player)
+    {
+        
+    }
     
     public void SeletedCounter()
     {
