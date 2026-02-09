@@ -414,8 +414,28 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4589716710238282922, guid: d72bee846803d074784ffb8f64e993ca, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6004743580328148555}
   m_SourcePrefab: {fileID: 100100000, guid: d72bee846803d074784ffb8f64e993ca, type: 3}
+--- !u!1 &1379087124794909458 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4589716710238282922, guid: d72bee846803d074784ffb8f64e993ca, type: 3}
+  m_PrefabInstance: {fileID: 3211756380131837880}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6004743580328148555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379087124794909458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d24694aee8277a44a8643658b66c0ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CuttingCounterVisual
 --- !u!4 &1379087124794909459 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4589716710238282923, guid: d72bee846803d074784ffb8f64e993ca, type: 3}
@@ -524,6 +544,7 @@ MonoBehaviour:
   seceltedCounter: {fileID: 6021894965232228519}
   cuttingRecipeListSO: {fileID: 11400000, guid: 83da0212c6b23cd49836611abfcdc47a, type: 2}
   progressBar: {fileID: 1297926997427566456}
+  cuttingCounterVisual: {fileID: 6004743580328148555}
 --- !u!4 &3727327214579240475 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6241572679959225096, guid: cd8d578ca63c5b14f99203a26901adf7, type: 3}

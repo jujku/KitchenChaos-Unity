@@ -4,6 +4,8 @@ public class CuttingCounter : BaseCounter
 {
     public CuttingRecipeListSO cuttingRecipeListSO;
     public ProgressBar progressBar;
+
+    public CuttingCounterVisual cuttingCounterVisual;
     private int cuttingCount = 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public override void Interact(Player player)
@@ -48,15 +50,20 @@ public class CuttingCounter : BaseCounter
 
         if(cuttingrecipe != null)
         {
-            cuttingCount++;
+        
             Debug.Log(cuttingCount/cuttingrecipe.cuttingCount);
+            Cut();
             progressBar.UpdateProgressBar((float)cuttingCount/(float)cuttingrecipe.cuttingCount);
-
             if(cuttingCount == cuttingrecipe.cuttingCount){
             DestroyKithenObject();
             CreateKitchenObject(cuttingrecipe.output.prefab);
       
             }
        }
+    }
+
+    public void Cut(){
+        cuttingCount++;
+        cuttingCounterVisual.PlayCut();
     }
 }
